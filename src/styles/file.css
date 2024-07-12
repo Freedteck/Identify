@@ -1,0 +1,26 @@
+#files-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#files-table th,
+#files-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+#files-table th {
+  background-color: var(--text-color);
+  color: white;
+}
+
+#files-table tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+#files-table tr:hover {
+  background-color: #ddd;
+}
+
