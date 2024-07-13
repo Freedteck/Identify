@@ -23,7 +23,7 @@ const Dashboard = () => {
 
   return (
     <main className='dashboard'>
-      <h1>Management Dashboard</h1>
+      { /** <h1>Management Dashboard</h1> **/}
       <Upload onFileUpload={handleFileUpload} />
       <FilesList files={files} />
     </main>

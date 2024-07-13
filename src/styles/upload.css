@@ -7,12 +7,22 @@ form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-items: flex-end;
 }
-form input {
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+}
+select {
+  padding: 10px;
+  background-color: #f0f0f1;
+  border-radius: 5px;
+}
+form [type="file"] {
   display: none;
 }
-form label {
+form .files {
   display: flex;
   justify-content: center;
   align-items: center;
